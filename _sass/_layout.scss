@@ -47,7 +47,7 @@ pre code.hljs {
 }
 
 .page-divider {
-	$divider-color: $light-gray;
+	$divider-color: #ffd940;
   display: block;
   width: 50%;
   margin-left: auto;
@@ -87,7 +87,7 @@ pre code.hljs {
 	text-align: center;
 	&.has-cover {
 		color: $white;
-		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
+		text-shadow: 0 2px 1px rgba(0,0.5,0.5,0.5) !important;
 		background-position: 50% 50%;
 		background-size: cover;
 		.title {
@@ -100,7 +100,7 @@ pre code.hljs {
 	.scrim {
 		padding: 3em 1em;
 		&.has-cover {
-			background-color: rgba(0,0,0,0.2);
+			background-color: rgba(0,0,0,0.05);
 			padding: 6em 1em !important;
 			@include media($tablet) {
 				padding: 9em 1em !important;
@@ -256,7 +256,7 @@ pre code.hljs {
 	}
 	.site-header-container {
 		color: $white;
-		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
+		text-shadow: 0 2px 1px rgba(0,0,0,0.1);
 		background-color: $highlight-color;
 		.site-header{
 			.title {
@@ -374,6 +374,7 @@ pre code.hljs {
 .site-footer {
 	$link-color: $white;
 	padding: 1em 1em 2em 1em;
+	background-color: rgba(0,0,0,0.05);
 	background-color: $highlight-color;
 	color: $white;
 	a {
