@@ -28,7 +28,7 @@ Half duplex and full duplex 동시에 양쪽 방향 통신이 가능 한것 하�
 
 
 
-Medium Access Control(MAC)
+#### Medium Access Control(MAC)
 
 Broadcast networks 에서는 여러명이 동시에 보낼 수 있기 때문에 문제가 된다.
 
@@ -118,7 +118,11 @@ Hamming distance
 
 1,3,5가 일때 에러 체크가 가능 한데 해밍 디스턴스는 d-1일때 체크가 가능하기 때문에 여기서 해밍 디스턴스의 길이는 2인것을 알 수 있다.
 
-Parity check code
+
+
+
+
+#### Parity check code
 
 ![image-20201124140113318](/Users/juhui/Library/Application Support/typora-user-images/image-20201124140113318.png)
 
